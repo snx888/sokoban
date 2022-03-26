@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>a vanilla js sokoban fork</title>
+    <link rel="manifest" href="./manifest.json">
+    <style>
+        .block { height: 50px; width: 50px; border: 1px solid black; display: inline-block; }
+        .blockW { background-color: black; }
+        .blockP { background-color: red; }
+    </style>
+  </head>
+  <body>
+    <ce-sokoban></ce-sokoban>
+    <pre></pre>
+    <script type="module">
+        import sokoban from './CMSokoban'
+        import './CESokoban'
+        function render() {
+            const sb = document.querySelector('ce-sokoban')
+            sb.innerHTML = ''
+            sokoban.data.board.forEach(row => {
+                sb.appendChild(document.createElement('div'))
+                row.forEach(col => {
+                    const block = document.createElement('div')
+                    block.classList.add('block', 'block'+col.replace(' ', 'E'))
+                    sb.appendChild(block)
+                })
+            })
+            let xx = ''
+            JSON.parse(JSON.stringify(sokoban.data.board)).forEach(row =>{
+                row.forEach(col => {
+                    xx = xx + col
+                })
+                xx = xx + '<br>'
+            })
+            document.querySelector('pre').innerHTML = xx
+        }
+        sokoban.addEventListener('started', e => {
+            render()
+        })
+        sokoban.addEventListener('moved', e => {
+            render()
+        })
+        sokoban.addEventListener('succeeded', e => {
+            //render()
+        })
+        sokoban.loadMap(1)
+        document.addEventListener('keypress', e => {
+            switch(e.key) {
+                case 'w': sokoban.move('up')
+                    break
+                case 's': sokoban.move('down')
+                    break
+                case 'a': sokoban.move('left')
+                    break
+                case 'd': sokoban.move('right')
+                    break
+            }
+        })
+    </script>
+  </body>
+</html>

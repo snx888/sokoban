@@ -1,2 +1,2 @@
 # sokoban
- a vanilla js sokoban clone
+ a vanilla js sokoban fork
