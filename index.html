@@ -7,59 +7,65 @@
     <title>a vanilla js sokoban fork</title>
     <link rel="manifest" href="./manifest.json">
     <style>
-        .block { height: 50px; width: 50px; border: 1px solid black; display: inline-block; }
-        .blockW { background-color: black; }
-        .blockP { background-color: red; }
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .controls {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 10px;
+        }
+        .button {
+            XXdisplay: inline-block;
+            height: 50px;
+            width: 50px;
+            border: 2px solid black;
+            border-radius: 5px;
+            box-shadow: 3px 3px black;
+        }
+        .button:active {
+            transform: translate(3px, 3px);
+            box-shadow: -3px -3px black;
+        }
     </style>
   </head>
   <body>
     <ce-sokoban></ce-sokoban>
-    <pre></pre>
+    <!--<pre></pre>
+    <div class="controls">
+        <div class="button up">up</div>
+    </div>
+    <div class="controls">
+        <div class="button left">left</div>
+        <div class="button down">down</div>
+        <div class="button right">right</div>
+    </div>-->
+    <div class="swiper"></div>
     <script type="module">
         import sokoban from './CMSokoban'
         import './CESokoban'
-        function render() {
-            const sb = document.querySelector('ce-sokoban')
-            sb.innerHTML = ''
-            sokoban.data.board.forEach(row => {
-                sb.appendChild(document.createElement('div'))
-                row.forEach(col => {
-                    const block = document.createElement('div')
-                    block.classList.add('block', 'block'+col.replace(' ', 'E'))
-                    sb.appendChild(block)
-                })
-            })
-            let xx = ''
-            JSON.parse(JSON.stringify(sokoban.data.board)).forEach(row =>{
-                row.forEach(col => {
-                    xx = xx + col
-                })
-                xx = xx + '<br>'
-            })
-            document.querySelector('pre').innerHTML = xx
-        }
+
+        const ceSokoban = document.querySelector('ce-sokoban')
         sokoban.addEventListener('started', e => {
-            render()
+            ceSokoban.render(sokoban)
         })
         sokoban.addEventListener('moved', e => {
-            render()
+            ceSokoban.render(sokoban)
         })
         sokoban.addEventListener('succeeded', e => {
-            //render()
+            //ceSokoban.render(sokoban)
         })
+
         sokoban.loadMap(1)
-        document.addEventListener('keypress', e => {
-            switch(e.key) {
-                case 'w': sokoban.move('up')
-                    break
-                case 's': sokoban.move('down')
-                    break
-                case 'a': sokoban.move('left')
-                    break
-                case 'd': sokoban.move('right')
-                    break
-            }
-        })
+
+        //const hammer = new Hammer(ceSokoban)
+
+        /*document.querySelector('.up').onclick = () => sokoban.move('up')
+        document.querySelector('.down').onclick = () => sokoban.move('down')
+        document.querySelector('.left').onclick = () => sokoban.move('left')
+        document.querySelector('.right').onclick = () => sokoban.move('right')*/
     </script>
   </body>
 </html>

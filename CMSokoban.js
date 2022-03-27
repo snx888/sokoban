@@ -42,6 +42,10 @@ export default createModel({
             this.dispatchEvent(new Event('started'))
         }
 
+        restart() {
+            this.loadMap(this.data.map)
+        }
+
         move(direction) {
             let current = [...this.data.player]
             let next = [...this.data.player]

@@ -74,23 +74,29 @@ export class CustomElement extends CustomModel {
         this.shadowRoot.appendChild(template.content)
         this._setHandler()
         this._setElements()
+        this._afterRender()
     }
 
     _setHandler() {
         this.constructor._on &&
         this.constructor._on.forEach(on => {
-            const [selector, event, handler, noBind] = on
-            this.shadowRoot.querySelector(selector).addEventListener(event, noBind ? handler : handler.bind(this))
+            let [selector, event, handler, noBind] = on
+            if (typeof selector !== 'object')
+                selector = this.shadowRoot.querySelector(selector)
+            if (typeof selector === 'object')
+                selector.addEventListener(event, noBind ? handler : handler.bind(this))
         })
     }
 
-    _setElements(){
+    _setElements() {
         if (!this.constructor._el) return
         this._el = {}
         Object.keys(this.constructor._el).forEach(key => {
             this._el[key] = this.shadowRoot.querySelector(this.constructor._el[key])
         })
     }
+
+    _afterRender() {} //abstract
 
 }
 
