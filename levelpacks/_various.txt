@@ -1,0 +1,428 @@
+LES TABLEAUX AUXQUELS J'AI COLLABORÉ
+http://sokoban.online.fr/collections.html
+
+
+#####
+#   ####
+#  $$  #
+##.@ . #
+ #. #.##
+ # $$ #
+ #  ###
+ ####
+Title: For ban 1
+Author: François Marques
+AuthorMail: sokoban@online.fr
+AuthorPage: http://sokoban.online.fr/
+Author: Aymeric du Peloux
+AuthorMail: aymeric.du-peloux@gadz.org
+AuthorPage: http://www.multimania.com/nabokos/
+Date: 2001/03
+
+#####
+#. .#####
+#  .    #
+##$$@$  #
+## ######
+#  $ ##
+#   . #
+###   #
+  #####
+Title: For ban 15
+Author: François Marques
+AuthorMail: sokoban@online.fr
+AuthorPage: http://sokoban.online.fr/
+Author: Aymeric du Peloux
+AuthorMail: aymeric.du-peloux@gadz.org
+AuthorPage: http://www.multimania.com/nabokos/
+Date: 2001/02
+
+  ####
+ ##  #
+ #   ####
+##$ ..*.#
+# $  #$ #
+#    #@ #
+#########
+Title: Align that
+Author: Aymeric du Peloux
+AuthorMail: aymeric.du-peloux@gadz.org
+AuthorPage: http://www.multimania.com/nabokos/
+Author: François Marques
+AuthorMail: sokoban@online.fr
+AuthorPage: http://sokoban.online.fr/
+Date: 2001/11/08
+
+##### ####
+#   # #  #
+#  $###@ #
+## $  $  #
+ # ....$ #
+ ##  #  ##
+  #######
+Title: Scroll
+Collection: NaboKosmos
+Author: Aymeric du Peloux
+AuthorMail: aymeric.du-peloux@gadz.org
+AuthorPage: http://www.multimania.com/nabokos/
+Author: François Marques
+AuthorMail: sokoban@online.fr
+AuthorPage: http://sokoban.online.fr/
+Difficulty: 7
+Date: 2001/04
+
+#####
+#   ######
+#  $.$.  #
+#  .$.$  #
+##$#.$.###
+ # .$.$  #
+ # $.$.  #
+ #@ ######
+ ####
+Title: Deca ban 4
+Author: François Marques
+AuthorMail: sokoban@online.fr
+AuthorPage: http://sokoban.online.fr/
+Author: Aymeric du Peloux
+AuthorMail: aymeric.du-peloux@gadz.org
+AuthorPage: http://www.multimania.com/nabokos/
+Date: 2001/10/09
+Comment:
+Created  08/10/2001 by François Marques
+Modified 09/10/2001 by Aymeric du Peloux
+Comment-end:
+
+#################################
+##        #     @               #
+# $$ $ $ $$$ $ $ $ $ $ $ $ $ $ $#
+#$  $$$$   $$ $$#$ $ $  $$$ $$$ #
+#  $ $   $$  $ $ $$$$ $$ # $$   #
+#$  $ $$$  $  $ $    $ $ $$   $$#
+#  $ $   $$ $$ $$ $ $      $$   #
+# $ $ $ $  $  $ $ $$$$$$$$$ $$$$#
+#$ $ $ . $$ $  $.$.. ...   $    #
+#  . $$$...$$$  ..$.$.$$$$$ $$$ #
+#$#*$$...$$.$..$.$.$.$$. # $ $  #
+# #. $*$$..$$.$.$$.$....$$$...$ #
+# $$$....*$.$..*..$.$$$....*.*.*#
+#  $ .***.*.***.*.*.*.*.****....#
+#*.**....*..*...*.*........****.#
+#......*..*.*.*.*..*.**.**.....*#
+#.**.*.*.*.*****.****.********..#
+#.****.***.**.***.*.**.*..*.*.**#
+#......*........................#
+#################################
+Title: SokoBig 62e
+Author: Howard Abed
+AuthorMail: Howard1818@cs.com
+AuthorPage: http://www.geocities.com/sokoban2000/index.html
+Author: François Marques
+AuthorMail: sokoban@online.fr
+AuthorPage: http://sokoban.online.fr/
+Comment:
+Remodel of SokoBig level 62a
+(7 walls added by François Marques)
+(total boxes:243)
+Comment-End:
+
+#################################
+#               @               #
+# $$ $ $$$$$ $ $ $ $ $ $ $ $ $ $#
+#$ $$$$$   $$ $$$$ $ $  $$$ $$$ #
+#  $ $   $$  $ $ $$$$ $$ $ $$   #
+#$  $ $$$  $  $ $    $ $ $$   $$#
+#  $ $   $$ $$ $$ $ $      $$   #
+# $ $ $ $  $  $ $$$$$$$$$$$ $$$$#
+#$ $ $   $$ $  $ $         $    #
+#    $$$   $$$....* $ $$$$$$$$$ #
+#*****...**.*..*.***.**....*.*..#
+#.**.**********.*******.***..**.#
+#..**..*.**.*..*..*****.**.*.*.*#
+#..*..***.*.***.*.*.***.****....#
+#****....**.*...*.*..*.....****.#
+#....*.*..*.*.*.*..*.**.**.*..**#
+#***.*.***.*******************..#
+#.****.***.**.***.**.***..*.*.**#
+#***.*.*...*................**.*#
+#################################
+Title: SokoBig 62z
+Author: Howard Abed
+AuthorMail: Howard1818@cs.com
+AuthorPage: http://www.geocities.com/sokoban2000/index.html
+Author: François Marques
+AuthorMail: sokoban@online.fr
+AuthorPage: http://sokoban.online.fr/
+Comment:
+4 Boxes added by François Marques
+(Total boxes:284)
+Comment-End:
+
+ ####
+ #  ###########
+ #*  $   $  * #
+ #  ## $ ##   #
+ # #  # #  # ##
+##  # #.# #  ##
+#   ##.*.##   #
+# $$*..*..*$$ #
+#   ## . ##   #
+## #  #.#  # ##
+## #   @   # #
+#   ##$ $##  #
+# *         *#
+###########  #
+          ####
+Title: La flêche (variation)
+Author: François Marques
+AuthorMail: Francois.Marques@freesbee.fr
+AuthorPage: http://sokoban.online.fr/
+Author: Julien Ferreira
+Author: Howard Abed
+AuthorMail: Howard1818@cs.com
+AuthorPage: http://www.geocities.com/sokoban2000/index.html
+Date: 2001/10/10
+Comment:
+Cette variation du concours m'a étée soumise par Howard le 10 octobre 2001.
+Comment-End:
+
+ #####
+ #   ###
+## $ $ #
+# . **.#
+#.** *@#
+#    $##
+###   #
+  #####
+Title: Octo ban 1 (variation)
+Author: François Marques
+AuthorMail: sokoban@online.fr
+AuthorPage: http://sokoban.online.fr/
+Author: David Holland
+AuthorMail: david@clickfest88.freeserve.co.uk
+AuthorPage: http://www.clickfest88.freeserve.co.uk/
+Date: 2001/06
+Comment: 
+Created in march 2001 by François Marques
+Modified in jun 2001 by David Holland
+Comment-End
+
+    ####
+ ####  ###
+ # $   $ #
+ # @#. . #
+ # $### ##
+ ## ##. ##
+### ## $ #
+# .$.    #
+#   ######
+#####
+Title: Penta Max
+Author: Maxime Ferreira
+Author: François Marques
+AuthorMail: sokoban@online.fr
+AuthorPage: http://sokoban.online.fr/
+Date: 2001/08/29
+
+  ###########
+ #     #     #
+ # * * * * * #
+#   * * * *   #
+# ## * * * ## #
+# ### * * ### #
+# #### + #### #
+# ##  * *  ## #
+# ## * * * ## #
+#   * * * *   #
+ # * * * * * #
+ ####  $  ####
+    ##   ##
+     #  ##
+     ####
+Title: The skull
+Author: François Marques
+AuthorMail: sokoban@online.fr
+AuthorPage: http://sokoban.online.fr/
+Author: Evgeny Grigoriev
+AuthorMail: grigr@yandex.ru
+AuthorPage: http://grigr.narod.ru/
+Date: 2001/10/05
+Comment:
+Cette variation du concours m'a été soumise par Evgeny le 27 août 2002.
+Comment-End:
+
+ ###############
+#       #       #
+# * * * * * * * #
+#  * * * * * *  #
+# # * * * * * # #
+# ## * * * * ## #
+# ### * * * ### #
+# # ## * * ## # #
+# ##### + ##### #
+#   #  * *  #   #
+### # * * * # ###
+  #  * * * *  #
+  ### * * * ###
+    ##  $ ###
+     ##   #
+      #  ##
+      ####
+Title: The skull (variation)
+Author: François Marques
+AuthorMail: sokoban@online.fr
+AuthorPage: http://sokoban.online.fr/
+Author: Evgeny Grigoriev
+AuthorMail: grigr@yandex.ru
+AuthorPage: http://grigr.narod.ru/
+Date: 2001/10/05
+Comment:
+Cette variation du concours m'a été soumise par Evgeny le 3 septembre 2002 à laquelle j'ai ajouté quelques modifications.
+Comment-End:
+
+#########
+#       ##
+# $$$$#  #
+##       ##
+###### #  #####
+#     .#$ #   #
+# # ### $ $$  #
+#   *.#.###   #
+### #...@## $##
+#   #.#*..* $ #
+# # $...### $ #
+#   ###...*   #
+###   $*#$#$$ #
+  ### #.    ###
+    #   #####
+    #####
+Title: Stor Age (variation)
+Author: François Marques
+AuthorMail: sokoban@online.fr
+AuthorPage: http://sokoban.online.fr/
+Author: Evgeny Grigoriev
+AuthorMail: grigr@yandex.ru
+AuthorPage: http://grigr.narod.ru/
+Date: 2002/10/30
+Comment:
+Cette variation du concours m'a été soumise par Evgeny le 30 octobre 2002 à laquelle j'ai ajouté quelques modifications.
+Comment-End:
+
+  ####
+  #  ####
+ ##$.   #
+ # $ *  #
+##.$.* ##
+#@ * # #
+#    * #
+##  ** #
+ ####  #
+    ####
+Title: Opened circle (variation)
+Author: François Marques
+AuthorMail: sokoban@online.fr
+AuthorPage: http://sokoban.online.fr/
+Author: Zhang Jun
+Date: 2002/10/21
+Comment:
+This variation on my original room (from 100 boxes collection) is a very little change from the
+version Zhang Jun send to me.
+Comment-End:
+
+###########################
+#            #            #
+# .$$#*#############*#$$. #
+# $. #       .       # .$ #
+# .$$#*######.######*#$$. #
+# $. $ #  $ $.$ $  # $ .$ #
+# .$$# ..#..$.$..#.. #$$. #
+# $. #$.* $ $.$ $ *.$# .$ #
+# .$ # . * *#.#* * . # $. #
+# $. #$.$ *#   #* $.$# .$ #
+# .$ # . *# $ $ #* . # $. #
+# #.##$ $# $.*.$ #$ $##.# #
+###*.....*  *+*  *.....*###
+# #.##$ $# $.*.$ #$ $##.# #
+# .$ # . *# $ $ #* . # $. #
+# $. #$.$ *#   #* $.$# .$ #
+# .$ # . * *#.#* * . # $. #
+# $. #$#* $ $.$ $ *#$# .$ #
+# .$$# ..... * ..... #$$. #
+# $. $ #  $ $.$ $  # $ .$ #
+# .$$#*######.######*#$$. #
+# $. #       .       # .$ #
+# .$$#*#############*#$$. #
+#            #            #
+###########################
+Title: yms 008c
+Author: York Shen & François Marques
+Comment:
+J'ai ajouté 4 autres caisses à la version 008b.
+Comment-End:
+
+ ####     ####
+ #  #######  #
+ #$ $ $ $ $ $#
+ # ......... #
+##$.$#$*$#$*$##
+#  . . . . .  #
+# $*$#$+$#$*$ #
+#  . . * . .  #
+##$*$#$*$#$.$##
+ # ......... #
+ #$ $ $ $ $ $#
+ #  #######  #
+ ####     ####
+Title: The square
+Author: François Marques
+AuthorMail: sokoban@online.fr
+AuthorPage: http://sokoban.online.fr/
+Author: York Shen
+Date: 2003/01/08
+Comment:
+Version submited to François Marques with no solution on 2003/01/08.
+Solution found by François Marques after 1h40' !
+Comment-End:
+
+###############
+#             #
+# # ##*########
+# #  *        #
+# #  * ***** ##
+# $ .#*  @  * #
+# #  * ***** ##
+# #  #        #
+# # ##*########
+# #           #
+###############
+Title: yms 010b
+Author: York Shen & François Marques
+Comment:
+J'ai rajouté quelques murs à la version 010a
+Comment-End:
+
+###################
+#  # . # . # . #  #
+# $#$. #*.$#$.$#$ #
+#  # .*  . #...   #
+#   $. #$.$  .$#$ #
+# $# .$# ..#$. #  #
+#  #$. #$.$# .$#$ #
+# $# .$# . #$. #  #
+#  #$. #$.$# .$#$ #
+# $# .$# . #$. #  #
+#  #$. #$.$# .$#$ #
+# $# .$# ..#$. #  #
+# $  *.#$.$$ .$#$ #
+#  #..$  . #...   #
+# $#$.$#*.$#$.$#$ #
+#  # . # .@# . #  #
+###################
+Title: Thinking Rabbit Revenge #304 (variation)
+Author: York Shen
+Date: 2003/01/08
+Comment:
+York Shen added 2 boxes 0n Thinking Rabbit Revenge level 304.
+He submited this version to François Marques with no solution on 2003/01/08.
+Solution found by François Marques after 17'.
+Comment-End:

@@ -8,64 +8,26 @@
     <link rel="manifest" href="./manifest.json">
     <style>
         * {
-            margin: 0;
-            padding: 0;
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
         }
-        .controls {
-            display: flex;
-            justify-content: center;
-            gap: 10px;
-            margin-top: 10px;
+        html, body {
+          height: 100vh;
+          width: 100vw;
         }
-        .button {
-            XXdisplay: inline-block;
-            height: 50px;
-            width: 50px;
-            border: 2px solid black;
-            border-radius: 5px;
-            box-shadow: 3px 3px black;
-        }
-        .button:active {
-            transform: translate(3px, 3px);
-            box-shadow: -3px -3px black;
+        ce-sokoban {
+          height: 100vh;
+          width: 100vw;
         }
     </style>
   </head>
   <body>
+    <div>
     <ce-sokoban></ce-sokoban>
-    <!--<pre></pre>
-    <div class="controls">
-        <div class="button up">up</div>
     </div>
-    <div class="controls">
-        <div class="button left">left</div>
-        <div class="button down">down</div>
-        <div class="button right">right</div>
-    </div>-->
-    <div class="swiper"></div>
     <script type="module">
-        import sokoban from './CMSokoban'
         import './CESokoban'
-
-        const ceSokoban = document.querySelector('ce-sokoban')
-        sokoban.addEventListener('started', e => {
-            ceSokoban.render(sokoban)
-        })
-        sokoban.addEventListener('moved', e => {
-            ceSokoban.render(sokoban)
-        })
-        sokoban.addEventListener('succeeded', e => {
-            //ceSokoban.render(sokoban)
-        })
-
-        sokoban.loadMap(1)
-
-        //const hammer = new Hammer(ceSokoban)
-
-        /*document.querySelector('.up').onclick = () => sokoban.move('up')
-        document.querySelector('.down').onclick = () => sokoban.move('down')
-        document.querySelector('.left').onclick = () => sokoban.move('left')
-        document.querySelector('.right').onclick = () => sokoban.move('right')*/
     </script>
   </body>
 </html>
