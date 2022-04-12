@@ -1,6 +1,6 @@
 import { defineElement, CustomElement } from './base/CustomElement.js'
-import './CESokobanStats'
-import './CESokobanBoard'
+import './CESokobanStats.js'
+import './CESokobanBoard.js'
 import sokoban from './Sokoban.js'
 import { DIRECTION } from './Constants.js'
 
