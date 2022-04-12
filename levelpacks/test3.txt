@@ -1,0 +1,21 @@
+;sokoban levels
+;set 1
+;author: howard abed <Howard1818@cs.com>
+;Home site for these levels is http://sokoban.cjb.net
+
+---
+
+; 1
+
+########
+#@ $.*+#
+########
+
+---
+
+; 2
+
+########
+#@ $.*+#
+########
+

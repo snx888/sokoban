@@ -1,0 +1,43 @@
+Author: Jordi Domènech
+Collection: Life
+Email: jd.sokoban2020@gmail.com
+Blog: sokoban-jd.blogspot.com
+Copyright: (c) by Jordi Domènech, and the authors of each level
+Date: November-December 2015. In 2017-2018 and 2021 I added other levels.
+
+Author's note:
+I've done this collection Life in a few days, a puzzle after another, between November and December 2015. My purpose in this collection was to offer a repertoire of typical Sokoban problems. There are some difficult puzzles, others are easier, all mixed, and there are two hard levels (#34 and #52): If you can't solve them, leave them. Experience is important in Sokoban, and the puzzle that seems impossible to solve today may be solved in a while.
+
+I have built this collection for peace in the world, and most especially to Syria, where there never had to be a war!
+
+The best puzzles are: 10, 20, 37, 40, 41, 43, 44, 49, 58, 60, 62, 63, 65, 66-70.
+
+I dedicate Life to the friend Laizhufu, author of incredible and imaginative puzzles.
+
+Life is one of my favorite collections. I hope you like it. 
+
+See more comments in the post "Life":
+sokoban-jd.blogspot.com/p/life.html
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+These levels are copyright (c) by Jordi Domènech and may be freely distributed for non-commercial use, provided they remain unchanged and credited with the author's name and original web site.
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+########
+#@ $.*+#
+########
+
+Author: Jordi Domenech
+Title: duh! - for David W. Skinner
+Date: 22-8-2017
+
+########
+#@ $.*+#
+########
+
+Author: Jordi Domenech
+Title: fix one - pour Aymeric+
+Comment: Also published in LOMA03-13

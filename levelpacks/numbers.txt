@@ -1,0 +1,135 @@
+// These levels are copyrighted by François Marques <sokoban@online.fr> //
+// The original file is downloadable at http://sokoban.online.fr/ //
+
+  ###
+ # @.#
+# $$* #
+#  #. #
+#     #
+# $#  #
+ #  .#
+  ###
+Title: Zero
+Comment: © 02/2001 François Marques
+
+  ####
+ ##  #
+#    #
+#    #
+###$$#
+  #..#
+  #..#
+ #@$$ #
+ #    #
+ ######
+Title: Number 1
+Comment: © 02/2001 François Marques
+
+ ####
+##   #
+#    .#
+# .#  #
+###@  #
+ # $ #
+## $ #
+# $ ####
+# $.   #
+#    . #
+########
+Title: Two
+Comment: © 02/2001 François Marques
+
+########
+#      #
+#@$ $$ #
+####  #
+#  ##  #
+#  #. .#
+#   .  #
+ #    #
+  ####
+Title: Three
+Comment: © 02/2001 François Marques
+
+    ###
+   #  #
+  #   #
+ # #.$##
+#  ..@ #
+#  $$* #
+####   #
+   #  #
+   ####
+Title: Four
+Comment: © 02/2001 François Marques
+
+  #######
+ ##     #
+##    $ #
+# $ #####
+# $$@$ #
+#       #
+#####   #
+#. ###  #
+#. .##  #
+#       #
+ #. .  #
+  #####
+Title: Five
+Comment: © 02/2001 François Marques
+
+  ####
+ # .. #
+#.@*$  #
+#  #   #
+#  #####
+#. $  #
+#  $   #
+#.###  #
+# $ $  #
+ #    #
+  ####
+Title: Six
+Comment: © 02/2001 François Marques
+
+########
+#      #
+# $ $  #
+#### $ #
+  #.$ ##
+  #. ##
+ ##.@##
+ # .  #
+ # $$ #
+ # . ##
+  #.$#
+  #. #
+  ####
+Title: Seven
+Comment: © 02/2001 François Marques
+
+ #####
+## @ ##
+# .$. #
+# $.$ #
+ #$.$#
+#  .  #
+# $.$ #
+# .$. #
+##   ##
+ #####
+Title: Eight
+Comment: © 02/2001 François Marques
+
+  ######
+ #  .  ##
+#  *.*  ##
+# $#.#$  #
+# $   $  #
+#######  #
+#   ###  #
+# $.$.$  #
+## .@.  #
+ #######
+Title: Nine
+Comment: © 02/2001 François Marques

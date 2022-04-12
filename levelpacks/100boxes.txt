@@ -1,0 +1,126 @@
+// These levels are copyrighted by François Marques <sokoban@online.fr> //
+// The original file is downloadable at http://sokoban.online.fr/ //
+
+   ####
+####  ##
+#   $  #
+#  *** #
+#  . . ##
+## * *  #
+ ##***  #
+  # $ ###
+  # @ #
+  #####
+Title: Connection
+Comment: © 11/2001 François Marques
+
+ #########
+ #   #   #
+ # @ #   #
+##$**$**$#
+#  #. .# ##
+#  .*$*.  #
+#         #
+###########
+Title: Two rooms
+Comment: © 11/2001 François Marques
+
+  #####
+  #   #
+  #   #
+### * ###
+#  *.*  #
+#  *.*  #
+#  *.*  #
+###$$$###
+  # @ #
+  #####
+Title: Fill the hall
+Comment: © 11/2001 François Marques
+
+  ####
+### @#####
+#  $$$   #
+# **.**  #
+##     ###
+# .***. #
+#       #
+#########
+Title: Two lines
+Comment: © 11/2001 François Marques
+
+ #######
+ #  @  #
+ #*$*$*#
+ # .$. #
+##. # .##
+#  *$*  #
+#   *   #
+#  ###  #
+#### ####
+Title: Dual
+Comment: © 11/2001 François Marques
+
+##### ####
+#   ###  #
+# $     @#
+##$*****$##
+# $.....$ #
+#   #     #
+########  #
+       ####
+Title: Zip
+Comment: © 11/2001 François Marques
+
+ ####
+##  #####
+#  $  $ #
+# $*..* ##
+#  *$$.  #
+#@ *.*.  #
+####   ###
+   #####
+Title: The little dog
+Comment: © 11/2001 François Marques
+
+  ####
+  #  ####
+ ##@ $  #
+ # *.*  #
+## * * ##
+#  * * #
+#  *** #
+##     #
+ ####  #
+    ####
+Title: Opened circle
+Comment: © 11/2001 François Marques
+
+  ####
+  # @##
+  #$$ #
+### * ###
+#  .*.$ #
+#  .*.  #
+# #.*.# #
+# $$$   #
+###   ###
+  ##  #
+   ####
+Title: Jour J
+Comment: © 11/2001 François Marques
+
+  #####
+  # . #
+###$ $###
+#  $ $  #
+# . . . #
+### * ###
+  # * #
+  #$.$#
+  # . #
+  #$.$#
+  # + #
+  #####
+Title: The crucifix
+Comment: © 11/2001 François Marques

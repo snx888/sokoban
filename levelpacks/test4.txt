@@ -1,0 +1,15 @@
+LOMA
+
+// 2004-2021 Copyright of many authors //
+
+########
+#@ $.*+#
+########
+Author: Aymeric du Peloux
+Title: LOMA01-01
+
+########
+#@ $.*+#
+########
+Author: François Marques
+Title: LOMA01-02

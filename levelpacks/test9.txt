@@ -1,0 +1,20 @@
+; Still More levels
+; by J. Franklin Mentzer <wryter@aol.com>.
+; Levels from Phil Mentzer's Still More Sokoban
+
+---
+
+; 1
+'%Still More #1'
+
+########
+#@ $.*+#
+########
+
+---
+
+; 2
+
+########
+#@ $.*+#
+########

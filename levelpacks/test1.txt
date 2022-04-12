@@ -1,0 +1,20 @@
+;The dh1 collection of Sokoban positions is copyright David Holland <david@noether.freeserve.co.uk>
+;These levels may be distributed freely as long as this copyright message is retained.
+
+---
+
+"Spade"
+;Author: D Holland
+;Title: Spade
+########
+#@ $.*+#
+########
+
+---
+
+"Ninevah"
+;Author: D Holland + sokgen
+;Title: ninevah
+########
+#@ $.*+#
+########

@@ -1,0 +1,485 @@
+// These levels are copyrighted by François Marques <sokoban@online.fr> //
+// The original file is downloadable at http://sokoban.online.fr/ //
+
+ #####
+## . ##
+#  *  #
+# $$$ #
+# .*. #
+## @ ##
+ #####
+Title: Penta ban 3
+Comment: © 01/2001 François Marques
+
+  #####
+  #   #
+### # #
+# . * #
+#  $#$###
+##. * @ #
+ #  #   #
+ ########
+Title: For ban 51
+Comment: © 08/2001 François Marques
+
+ #######
+ #  .  #
+## #.# #
+# $$@$ #
+#   . ##
+#######
+Title: Try ban 2
+Comment: © 03/2001 François Marques
+
+  ####
+  #  #
+### .###
+#  $$  #
+# #+.# #
+#  $$  #
+###. ###
+  #  #
+  #  #
+  ####
+Title: The crucifix
+Comment: © 03/2001 François Marques
+
+ ####
+ #  ####
+## . $ #
+#  * # #
+#  $ . #
+###*#@##
+  #   #
+  #####
+Title: For ban 43
+Comment: © 05/2001 François Marques
+
+ ####
+ #  #
+ # @#
+ #$.#
+##.$####
+# $.   #
+# .$   #
+#  #####
+####
+Title: ForBoxes 30
+Comment: © 03/2001 François Marques
+
+ #######
+ #  #  #
+##  #  ##
+# . @ . #
+# #*#*# #
+#   $   #
+### $####
+  #  #
+  ####
+Title: Split
+Comment: © 03/2001 François Marques
+
+  ####
+###  ###
+# * $  #
+# *.@* #
+# *  # #
+# ##*# #
+#      #
+########
+Title: Hexa ban 13
+Comment: © 05/2001 François Marques
+
+ #####
+##   ###
+# ..$$ #
+#   $@ #
+##.# ###
+ #   #
+ #####
+Title: Try ban YZ
+Comment: © 05/2001 François Marques
+
+ ####
+ #  ##
+##   ##
+#  $  #
+#.#*#*##
+#  @   #
+#  #   #
+########
+Title: Try ban ZX
+Comment: © 05/2001 François Marques
+
+#####
+#.  ##
+# #$ ###
+#..@   #
+#.$$$  #
+###   ##
+  #####
+Title: For ban 45
+Comment: © 05/2001 François Marques
+
+ ####
+ #  #
+##.$###
+# . $ #
+# .$#@#
+# . $ #
+#   ###
+#####
+Title: ForBoxes 25
+Comment: © 03/2001 François Marques
+
+  ####
+  #  ###
+###  $ #
+# ...@ #
+# $# $ #
+# $..$##
+#  #  #
+#######
+Title: Penta ban 16
+Comment: © 05/2001 François Marques
+
+  #####
+ ##   #
+ # $  #
+ #.*$##
+## * #
+#  . #
+#  @ #
+######
+Title: For ban 14
+Comment: © 03/2001 François Marques
+
+ ####
+ #  ###
+ # *$ #
+ # .# #
+## *  #
+#  *@ #
+#   ###
+#####
+Title: For ban 12
+Comment: © 03/2001 François Marques
+
+#####
+#   ##
+# #  #
+# $..##
+##$.. #
+# @$$ #
+#   ###
+#####
+Title: ForBoxes 31
+Comment: © 03/2001 François Marques
+
+  ####
+  #  #
+###  ###
+#  $$$ #
+# ...# #
+# #... #
+# $$$@##
+###   #
+  #####
+Title: Hexa ban 12
+Comment: © 05/2001 François Marques
+
+  #####
+ ##   #
+ #    #
+## * $##
+#  **  #
+#  .**@#
+###  ###
+  #  #
+  ####
+Title: Hexa ban 3
+Comment: © 03/2001 François Marques
+
+    #####
+ ####   #
+ #  #   #
+## * * ##
+# *.*$@#
+#  * * #
+##     #
+ #######
+Title: Hepta ban 8
+Comment: © 05/2001 François Marques
+
+   ####
+####  #
+# $   ##
+#  *.. #
+#  *$. #
+##$.*$ #
+ # @ ###
+ #####
+Title: Hepta ban 9
+Comment: © 05/2001 François Marques
+
+  ####
+###  ##
+#  $  #
+#@.*. #
+## $  #
+ ###  #
+   ####
+Title: Try ban 13
+Comment: © 03/2001 François Marques
+
+ ######
+ #    #
+ #$## #
+##....#
+# $#  #
+#@$   #
+# $  ##
+##  ##
+ ####
+Title: For ban 3
+Comment: © 03/2001 François Marques
+
+   #####
+  ##.  #
+  # .  #
+ ##*#.##
+##   $ #
+#   $$@#
+#    ###
+###  #
+  ####
+Title: For ban 19
+Comment: © 03/2001 François Marques
+
+#####
+# @ #
+#$$$##
+# $  #
+#  # #
+#....#
+#    #
+######
+Title: Level 6
+Comment: © 03/2001 François Marques
+
+    ####
+#####  #
+#   $  #
+# @*** #
+# # . ##
+#   ###
+#####
+Title: For ban 36
+Comment: © 03/2001 François Marques
+
+ ####
+ # .####
+ #    .#
+ #$$$$@#
+## # ###
+#   . #
+# .   #
+#######
+Title: For ban 40
+Comment: © 03/2001 François Marques
+
+#######
+#  #  #
+# $ @ #
+# *** #
+# # * #
+# .   #
+#######
+Title: Penta ban 19
+Comment: © 05/2001 François Marques
+
+  ####
+  #  #
+ ##  ###
+## $ $ #
+#+*..*.##
+## $ $  #
+ #  #   #
+ ########
+Title: Hexa ban 16
+Comment: © 05/2001 François Marques
+
+  ####
+###  #
+#  $@##
+# # $ #
+# $ # #
+## ...#
+ #   ##
+ #####
+Title: Try ban 12
+Comment: © 03/2001 François Marques
+
+#####
+#   ###
+# # $ #
+# **.+#
+#   $ #
+#   ###
+#####
+Title: For ban XX
+Comment: © 05/2001 François Marques
+
+ #######
+##   . #
+#    $ #
+# #$#*##
+#  $ $ #
+###@.. #
+  # .###
+  ####
+Title: Penta ban 5
+Comment: © 03/2001 François Marques
+
+####
+#  ####
+# .  .#
+# . # #
+#  $  #
+##$$###
+ # @#
+ ####
+Title: The rabbit
+Comment: © 05/2001 François Marques
+
+#####
+#   ###
+#     #
+##  # ###
+ # $**  #
+ ##@.*  #
+  #  ####
+  #  #
+  ####
+Title: ForBoxes 22
+Comment: © 03/2001 François Marques
+
+  ####
+  #@ #
+###$$###
+#      #
+# $#  .#
+##.   ##
+ ### .#
+   ####
+Title: Try ban ZY
+Comment: © 05/2001 François Marques
+
+#####
+#.  ####
+#..    #
+#. # # ###
+##    $  ##
+ ###  $$$@#
+   ####   #
+      #####
+Title: ForBoxes 23
+Comment: © 03/2001 François Marques
+
+  ####
+  # .###
+### .. #
+#  $  .#
+#   # ##
+##$$$ #
+ # @###
+ ####
+Title: For ban 42
+Comment: © 04/2001 François Marques
+
+ #####
+ #   ####
+##.#$#  #
+#   $   #
+# **.*  #
+##  @  ##
+ #######
+Title: Penta ban 17
+Comment: © 05/2001 François Marques
+
+ ####
+ #  ####
+##  .  #
+#  $.$ ##
+# $*#*@ #
+## .$.  #
+ #  #####
+ #  #
+ ####
+Title: Hexa ban 17
+Comment: © 06/2001 François Marques
+
+#######
+#  .  ##
+#  *#$ ##
+##@.$   #
+ # *#$  #
+ # .  ###
+ #  ###
+ ####
+Title: Penta ban 15
+Comment: © 05/2001 François Marques
+
+ #####
+ #   #
+##.#$###
+#   $  #
+# **.*@##
+##      #
+ ####   #
+    #####
+Title: Penta ban 18
+Comment: © 05/2001 François Marques
+
+  ####
+  #@ #
+ ##$$#
+ #   ##
+##.#. #
+# * * ##
+#      #
+####   #
+   #####
+Title: L'ai-je bien descendu ?
+Comment: © 11/2001 François Marques
+
+#####
+#   ##
+#    ###
+##   $ #
+##*#$#+##
+# .  $. #
+#   #   #
+#########
+Title: Three doors
+Comment: © 07/2002 François Marques
+
+###########
+#  $. .$  #
+#  $*@*$  #
+### .#. ###
+  #     #
+  #######
+Title: T
+Comment: © 09/2002 François Marques
+
+ ####
+##  ###
+#   @ #
+#  $# ###
+## *. . #
+ # **$  #
+ #   ####
+ #####
+Title: L
+Comment: © 09/2002 François Marques
