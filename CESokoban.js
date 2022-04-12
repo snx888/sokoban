@@ -1,253 +1,209 @@
 import { defineElement, CustomElement } from './base/CustomElement.js'
-import './base/hammer.min.js'
+import './CESokobanGame.js'
+import './CESokobanLevelSelect.js'
+import { STATE } from './Constants.js'
+import sokoban from './Sokoban.js'
+
+
 
 defineElement({
     tag: 'ce-sokoban', 
-    data: {
-        sokoban: undefined,
-        map: 0,
-        moves: 0,
-        open: 0
-    },
     template: (data) => /*html*/`
         <style>
             :host {
                 --floor: cornsilk;
-                --wall: tan;
-                --target: gold;
-                --target2: SlateGray;
-                --player: steelblue;
-                --player2: skyblue;
-                --box: SaddleBrown;
-                --box2: Sienna;
-            }
-            .original {
-                --floor: #DED6AE;
-                --wall: #A19555;
-                --target: #D69585;
-                --target2: #BD8375;
-                --player: #2895FF;
-                --player2: #996D40;
-                --box: #BA650C;
-                --box2: #9E560A;
-            }
-            .first {
-                --floor: cornsilk;
-                --wall: tan;
-                --target: gold;
-                --target2: black;
-                --player: steelblue;
-                --player2: skyblue;
-                --box: darkred;
-                --box2: firebrick;
+                --wall: Sienna;
+                --target: LightSalmon;
+                --worker: steelblue;
+                --worker2: skyblue;
+                --box: Peru;
+                --box2: tan;
+
+                --background: #111;
+                --onBackground: white;
+                --surface: #2E2E2E;
+                --onSurface: lightgray;
+                --surfaceDark: #1f1f1f;
+                --primary: #198EBF;
+                --onPrimary: white;
+                --secondary: #FFCC00;
+                --onSecondary: #494949;
+                --tertiary: #7A6200;
+                --onTertiary: lightgray;
+                --positive: seagreen;
+                --negative: indianred;
+
+                font: 16px 'Patrick Hand';
+                letter-spacing: 1px;
+                display: block;
+                height: 100%;
+                background-color: var(--background);
+                color: var(--onBackground);
             }
             .frame {
-                background: var(--floor);
+                display: flex;
+                flex-direction: column;
+                height: 100%;
+                position: relative;
+            }
+            header {
+            }
+            section {
+                flex: 1;
+                min-height: 0;
             }
             h1 {
-                font: 24px Consolas;
+                font-family: 'Kaushan Script';
+                font-size: 24px;
                 font-weight: bold;
                 letter-spacing: .2em;
                 text-transform: uppercase;
                 text-align: center;
-                margin: 0;
-                padding-top: 1em;
+                margin: 1em 0;
+                Xborder-bottom: 2px solid var(--primary);
+            }
+            h1:after {
+                content: "vanilla";
+                background: #F3E5AB;
+                color: #462E1C;
+                font-family: 'Patrick Hand';
+                font-size: 11px;
+                letter-spacing: .1em;
+                Xfont-weight: normal;
+                Xborder-radius: 3px;
+                padding: 0 3px;
+                position: relative;
+                top: 18px;
+                right: 50px;
             }
             h1 span {
-                color: var(--box2);
+                color: var(--background);
                 display: inline-block;
                 letter-spacing: 0;
                 font-size: 16px;
                 line-height: 24px;
                 transform: translateY(-3px);
                 padding: 2px 8px;
-                background: var(--wall);
+                margin-left: .3em;
+                background: var(--onBackground);
                 border-top-right-radius: 5px;
                 border-bottom-right-radius: 5px;
+                display: none;
             }
             h2 {
-                margin: 0;
-                font: 13px Calibri;
-                color: var(--wall);
-                text-align: center;
-                /*position: relative;
-                top: -1.3em;
-                left: 2em; */
+                display: none;
             }
-            ul {
-                XXmargin: 0;
-                padding: 5px;
-                display: flex;
-                list-style-type: none;
-                justify-content: center;
-                XXgap: 2em;
+            h3 {
             }
-            li {
-                flex: 1 1 0;
-                padding: .5em .3em;
-                font: 16px Consolas;
+            button {
+                background: var(--primary);
+                color: var(--onPrimary);
+                border-radius: 5px;
+                border: none;
+                cursor: pointer;
+                padding: .3em .5em;
+                font-family: inherit;
+                font-size: 16px;
                 text-transform: uppercase;
-                color: var(--box2);
                 font-weight: bold;
                 text-align: center;
             }
-            li.restart {
-                background: var(--wall);
-                border-radius: 5px;
-                cursor: pointer;
+            button:hover{
+                Xtransform: translate(1px, 1px);
+                Xbox-shadow: -2px -2px black;
             }
-            label {
-                color: black;
-                font-weight: normal;
-                margin-right: .3em;
-            }
-            label:after {
-                content: ":";
-            }
-            .board {
-                width: 100%;
-                display: flex;
-                flex-wrap: wrap;
-                --block: calc(100vw / 8);
-                cursor: pointer;
-            }
-            .block {
-                height: var(--block);
-                width: var(--block);
+            .info {
                 box-sizing: border-box;
-                border: 5px solid transparent;
-                display: inline-block;
-                background-color: var(--floor);
-                display: flex;
-                justify-content: center;
-                align-items: center;
-            }
-            .block div {
+                color: white;
+                padding: 1em;
+                position: fixed;
+                background: rgba(0, 0, 0, .9);
                 width: 100%;
                 height: 100%;
-                box-sizing: border-box;
+                top: 0;
+                left: 0;
+                text-align: center;
             }
-            .blockW { 
-                background-color: var(--wall);
+            .hidden {
+                display: none;
             }
-            .blockT,
-            .blockp,
-            .blockb { 
-                border: 5px solid var(--target);
-                outline: 5px
-                dashed var(--target2);
-                outline-offset: -5px;
+            .failure {
+                border:2px solid red;
             }
-            .blockP div,
-            .blockp div {
-                height: 80%;
-                width: 80%;
-                background-color: var(--player);
-                border: 5px solid var(--player2);
-                border-radius: 50%;
-            }
-            .blockB div,
-            .blockb div {
-                border: 5px solid var(--box);
-                background: var(--box2);
+            .success {
+                border:2px solid green;
             }
         </style>
-        <div class="frame XXoriginal">
-            <h1>Sokoban<span>VJS</span></h1>
-            <h2>Vanilla JS fork</h2>
-            <ul>
-                <li><label>map</label>${data.map}</li>
-                <li><label>moves</label>${data.moves}</li>
-                <li><label>open</label>${data.open}</li>
-                <li class="restart">restart</li>
-            </ul>
-            <div class="board">
-            </div>
+        <div class="frame">
+            <header>
+                <h1>Sokoban<span>VJS</span></h1>
+                <h2>Vanilla JS fork</h2>
+            </header>
+            <section>
+                <ce-sokoban-levelselect></ce-sokoban-levelselect>
+                <ce-sokoban-game class="hidden"></ce-sokoban-game>
+                <div class="info success hidden">
+                    <h3>Level solved</h3>
+                    <p>Congratulations, you solved this level. What's next?</p>
+                    <button class="restart">same</button>
+                    <button class="next">next</button>
+                    <button class="random">random</button>
+                </div>
+                <div class="info failure hidden">
+                    <h3>Failure</h3>
+                    <p>Unfortunately you failed to solve this level. What's next?</p>
+                    <button class="restart">same</button>
+                    <button class="next">next</button>
+                    <button class="random">random</button>
+                </div>
+            </section>
         </div>
     `,
     class: class extends CustomElement {
-        _sokoban
-        _keydown = false
-        set title(v) {
-            this.data.title = v
-        }
-        get title() {
-            return this.data.title
-        }
-        render(sokoban) {
-            this._sokoban = sokoban
-            this.data.map = sokoban.data.map
-            this.data.moves = sokoban.data.moves
-            this.data.open = sokoban.data.open
-            this._el.board.innerHTML = ''
-            sokoban.data.board.forEach(row => {
-                // line wrap element
-                //this._el.board.appendChild(document.createElement('div'))
-                row.forEach(col => {
-                    const block = document.createElement('div')
-                    block.classList.add('block', 'block'+col.replace(' ', 'E'))
-                    block.appendChild(document.createElement('div'))
-                    this._el.board.appendChild(block)
+        constructor() {
+            super()
+            sokoban.addEventListener('gameStart', game => {
+                game.addEventListener('update', game => {
+                    if (game.state === STATE.SOLVED){
+                        //this._el.success.classList.remove('hidden')
+                    } else if (game.state === STATE.LOCKED){
+                        //this._el.failure.classList.remove('hidden')
+                    } else if (game.state === STATE.ERROR){
+                        //TODO
+                    }
                 })
+                this._el.game.classList.remove('hidden')
+                this._el.levelselect.classList.add('hidden')
             })
-            /*let xx = ''
-            JSON.parse(JSON.stringify(sokoban.data.board)).forEach(row =>{
-                row.forEach(col => {
-                    xx = xx + col
-                })
-                xx = xx + '<br>'
-            })
-            document.querySelector('pre').innerHTML = xx*/
-        }
-        _afterRender() {
-            const hammer = new Hammer(this._el.board)
-            hammer.get('swipe').set({ direction: Hammer.DIRECTION_ALL });
-            hammer.on("swipe", (e) => {
-                //console.log(e)
-                switch(e.direction) {
-                    case 8: this._sokoban.move('up')
-                        break
-                    case 16: this._sokoban.move('down')
-                        break
-                    case 2: this._sokoban.move('left')
-                        break
-                    case 4: this._sokoban.move('right')
-                        break
-                }
+            sokoban.addEventListener('levelSelect', () => {
+                this._el.game.classList.add('hidden')
+                this._el.levelselect.classList.remove('hidden')
             })
         }
     },
     el: {
-        board: '.board'
+        success: '.success',
+        failure: '.failure',
+        game: 'ce-sokoban-game',
+        levelselect: 'ce-sokoban-levelselect'
     },
     on: [
+        ['ce-sokoban-nav', 'levelChange', function(e) {
+            this._sokoban = Sokoban.loadLevel(e.detail)
+            this._el.game.model = this._sokoban
+            e.stopPropagation()
+        }],
         ['.restart', 'click', function(e) {
-            //console.log(this, e, this._el)
             this._sokoban.restart()
             e.stopPropagation()
         }],
-        [document, 'keydown', function(e) {  
-            if (this._keydown !== false) return
-            this._keydown = true
-            //console.log(e) 
-            switch(e.key) {
-                case 'w':
-                case 'ArrowUp': this._sokoban.move('up')
-                    break
-                case 's':
-                case 'ArrowDown': this._sokoban.move('down')
-                    break
-                case 'a':
-                case 'ArrowLeft': this._sokoban.move('left')
-                    break
-                case 'd':
-                case 'ArrowRight': this._sokoban.move('right')
-                    break
-            }
+        ['.random', 'click', function(e) {
+            this._sokoban.randomMap()
             e.stopPropagation()
-        }],
-        [document, 'keyup', function(e) {
-            this._keydown = false
+        }],        
+        ['.next', 'click', function(e) {
+            this._sokoban.nextMap()
+            e.stopPropagation()
         }]
     ]
 })

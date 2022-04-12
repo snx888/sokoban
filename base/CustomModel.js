@@ -4,7 +4,7 @@ export function defineModel(options) {
     if (!options.data) options = { data: options }
     if (!options.class) options.class = class extends CustomModel {}
     if (!options.tag) options.tag = 'custom-model-' + count++
-    options.class._data = options.data
+    options.class._data = options.data || {}
     customElements.define(options.tag, options.class)
     //console.log(options)
     return options.tag
@@ -24,7 +24,8 @@ export class CustomModel extends HTMLElement {
 
     constructor() {
         super()
-        this._data = new Proxy(this.constructor._data, this._handler('data'))
+        //this._data = new Proxy(this.constructor._data, this._handler('data'))
+        this._data = this.constructor._data
         //this._data = this.constructor._data.PROXY ? this.constructor._data : new Proxy(this.constructor._data, this._handler('data'))
         //console.log(this.constructor._data, this._data)
     }
@@ -34,7 +35,7 @@ export class CustomModel extends HTMLElement {
         return this._data
     }
     set data(v) {
-        const old = this._data
+        /*const old = this._data
         this._data = v.PROXY ? v : new Proxy(v, this._handler('data'))
         this._emit(new CustomEvent('change'), {
             name: 'data',
@@ -42,7 +43,8 @@ export class CustomModel extends HTMLElement {
             fullname: 'data',
             oldValue: old,
             newValue: this._data
-        })
+        })*/
+        this._data = v
     }
 
     _handler(path) {

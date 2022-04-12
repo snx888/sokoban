@@ -17,6 +17,10 @@ export default class History {
             this.#set(game.level)
     }
 
+    clear() {
+        localStorage.removeItem(this.#id)
+    }
+
     get data() { return this.#data }
 
     #set(level, solved=false) {

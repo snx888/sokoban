@@ -6,7 +6,7 @@ export function defineElement(options) {
     options.class._template = options.template || options.class._template
     if (typeof options.class._template === 'string')
         options.class._template = data => options.class._template
-    options.class._data = options.data
+    options.class._data = options.data || {}
     options.class._models = options.models
     options.class._on = options.on
     options.class._el = options.el
@@ -22,6 +22,7 @@ export class CustomElement extends CustomModel {
     _el = {}
     _models = {}
     _modeslData = {}
+    _rendered = false
 
     static get observedAttributes() {
         //console.log('observe attributes', this._attributes)
@@ -70,11 +71,12 @@ export class CustomElement extends CustomModel {
     _render() {
         this.shadowRoot.textContent = ''
         const template = document.createElement('template')
-        template.innerHTML = this.constructor._template({...this._data, ...this._modelsData })
+        template.innerHTML = this.constructor._template.bind(this)({...this._data, ...this._modelsData })
         this.shadowRoot.appendChild(template.content)
         this._setHandler()
         this._setElements()
         this._afterRender()
+        this._rendered = true
     }
 
     _setHandler() {
@@ -82,9 +84,11 @@ export class CustomElement extends CustomModel {
         this.constructor._on.forEach(on => {
             let [selector, event, handler, noBind] = on
             if (typeof selector !== 'object')
-                selector = this.shadowRoot.querySelector(selector)
-            if (typeof selector === 'object')
-                selector.addEventListener(event, noBind ? handler : handler.bind(this))
+                selector = this.shadowRoot.querySelectorAll(selector)
+            if (typeof selector === 'object' && selector) {
+                if (!selector.forEach) selector = [selector]
+                selector.forEach(s => s.addEventListener(event, noBind ? handler : handler.bind(this)))
+            }
         })
     }
 

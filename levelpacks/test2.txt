@@ -1,0 +1,28 @@
+; Dimitri & Yorick Collection, ID 651-711
+; By Jacques Duthen
+; [jack] 960812
+; This is a series 
+; of simple sokoban puzzles 
+; for (my) kids.
+
+"Dimitri & Yorick" levels were made by Jacques Duthen <duthen@club-internet.fr>, 
+who also made the Sokoban font. He suggests that the levels are best for 
+kids ages 4-9.
+
+---
+
+; 1
+'Push down (01)'
+
+########
+#@ $.*+#
+########
+
+---
+
+; 2
+'Two rooms 3x3 (01)'
+
+########
+#@ $.*+#
+########

@@ -1,0 +1,591 @@
+// These levels are copyrighted by François Marques <sokoban@online.fr> //
+// The original file is downloadable at http://sokoban.online.fr/ //
+
+######
+#    #
+# $ $##
+# #@$ #
+# * # #
+## .. #
+ #  .##
+ #####
+Title: For ban 46
+Comment: © 05/2001 François Marques
+
+ #####
+ #   #
+##*$@####
+# .*$   #
+#  .*$  #
+## #. ###
+ #    #
+ ######
+Title: Hexa ban 1
+Comment: © 03/2001 François Marques
+
+  #####
+ ##   #
+ #  # #
+##$..$#
+# .$$.##
+# $..$ #
+## #@  #
+ #   ###
+ #####
+Title: Hexa ban 2
+Comment: © 03/2001 François Marques
+
+  #####
+  #@  ##
+###.   #
+# $*$  #
+#  . ###
+## * #
+ #  ##
+ ####
+Title: For ban 7
+Comment: © 03/2001 François Marques
+
+  ####
+ ##  #
+ # $ #
+## * #
+# ..@##
+#  *  #
+###$  #
+  #  ##
+  ####
+Title: For ban 16
+Comment: © 03/2001 François Marques
+
+   ####
+ ###  #
+## $$ ###
+# ....  #
+#  $$   #
+### @####
+  ####
+Title: For ban 32
+Comment: © 03/2001 François Marques
+
+ ######
+ #    #
+## ## #
+#  $. #
+# ***.#
+## $@ #
+ #   ##
+ #####
+Title: Penta ban 4
+Comment: © 03/2001 François Marques
+
+ #####
+ #   ###
+## $$  #
+# * .*.#
+#.*. * #
+# @$$ ##
+###   #
+  #####
+Title: Octo ban 1
+Comment: © 03/2001 François Marques
+
+  ####
+###. #
+# $ .##
+# # ..#
+# @ # #
+# $$$ #
+##   ##
+ #  ##
+ ####
+Title: For ban 38
+Comment: © 03/2001 François Marques
+
+ ######
+ #    #
+ #$$@ #
+ #..###
+##.*  #
+#  $  #
+#  # ##
+##   #
+ #####
+Title: For ban 13
+Comment: © 03/2001 François Marques
+
+  ####
+ ##@ #
+ # $ #
+## * #
+#  ..#
+#  * #
+###$ #
+  #  #
+  ####
+Title: Level 1
+Comment: © 03/2001 François Marques
+
+  #####
+###   #
+#  @# #
+# #...##
+# $.$. #
+##$$$# #
+ #     #
+ #######
+Title: Penta ban 7
+Comment: © 03/2001 François Marques
+
+   #
+  ##
+ #  #
+ # $ #
+# .$.#
+# $.$ #
+# .$. #
+###@###
+ #  #
+ #  #
+ #  #
+ ####
+Title: The arrow
+Comment: © 03/2001 François Marques
+
+  ####
+ ##  #
+ # . ##
+## *  ##
+# *$*  #
+#  *   #
+#  @####
+#####
+Title: Penta ban 6
+Comment: © 03/2001 François Marques
+
+ #####
+ #   #
+## *$###
+# *@*  #
+# .*   #
+##   ###
+ #  ##
+ ####
+Title: Penta ban 8
+Comment: © 03/2001 François Marques
+
+ #####
+ # . ##
+## $  #
+# * * ##
+# ***  #
+#  @   #
+########
+Title: Hexa ban 15
+Comment: © 05/2001 François Marques
+
+ #####
+ #   ####
+ # #    #
+ #$$..  #
+## ** ###
+# ..$$#
+#  #  #
+## @ ##
+ #####
+Title: Hexa ban 4
+Comment: © 03/2001 François Marques
+
+  ####
+  #  ###
+ ##    #
+## $.$ ##
+# .***. #
+#  $.$  #
+### @ ###
+  #  ##
+  ####
+Title: Hepta ban 1
+Comment: © 01/2001 François Marques
+
+  #####
+###   ####
+# .$.$@  #
+#  $.$.  #
+### # ####
+  #   #
+  #####
+Title: For ban 28
+Comment: © 03/2001 François Marques
+
+ ####
+ #  #
+ #  ##
+ # . ##
+ #$*  ##
+## **  #
+#   *$ #
+# @ .###
+###  #
+  ####
+Title: Hexa ban 11
+Comment: © 05/2001 François Marques
+
+  #####
+ ## @ ##
+## $.$ ##
+# .***. #
+#  $.$  #
+##     ##
+ ###  ##
+   ####
+Title: Hepta ban 2
+Comment: © 01/2001 François Marques
+
+  ####
+ ##  #
+## . ###
+# $  $ #
+# ..$  #
+#####@ #
+    ####
+Title: Try ban 27
+Comment: © 05/2001 François Marques
+
+ ######
+##    ##
+#   #. ##
+# # @*$ #
+#  .*   #
+####$ ###
+   #  #
+   ####
+Title: For ban 20
+Comment: © 03/2001 François Marques
+
+#######
+#  #  ##
+#  #   #
+# .*$# #
+#  *@  #
+# .*$###
+## # #
+ #   #
+ #####
+Title: Reverse
+Comment: © 03/2001 François Marques
+
+  ####
+ ##  #
+##   #
+# $ $##
+# ... #
+# $.$ #
+##@.$##
+ ##  #
+  ####
+Title: Penta ban 11
+Comment: © 05/2001 François Marques
+
+  #####
+  #   #
+##@ # ##
+#  $$..##
+# #.$$. #
+#  ..$$ #
+####  ###
+   #  #
+   ####
+Title: Hexa ban 6
+Comment: © 03/2001 François Marques
+
+  #####
+  #   ##
+###.   #
+# $**  #
+# *@*.##
+#  *$ #
+##    #
+ ######
+Title: Hepta ban 3
+Comment: © 05/2001 François Marques
+
+  ####
+ ## @###
+## $$$.#
+#  .$..###
+#  ..$.  #
+###.$$$  #
+  #   ####
+  #####
+Title: Octo ban 6
+Comment: © 05/2001 François Marques
+
+   ####
+   #  #
+  ##$ ###
+###  .  #
+# .*$*  #
+# # @ ###
+#   ###
+#####
+Title: For ban 39
+Comment: © 03/2001 François Marques
+
+ #####
+ #   #
+ # # #
+##..$###
+# $*$  #
+# $..  #
+#  @####
+##  #
+ ####
+Title: Penta ban 12
+Comment: © 05/2001 François Marques
+
+    ###
+  ##  #
+ # $  #
+# .* .#
+#  $  #
+###@#*#
+  #   #
+  #####
+Title: For ban 47
+Comment: © 05/2001 François Marques
+
+    ####
+#####  #
+#  ##  #
+#   $*.#
+#  #*@*##
+##  .*$ #
+ ## #   #
+  #   ###
+  #####
+Title: Hexa ban 7
+Comment: © 03/2001 François Marques
+
+  ####
+ ##  ##
+ #    #
+##*$* ##
+# .@.  #
+# *$*  #
+#   ####
+#####
+Title: Hexa ban 14
+Comment: © 05/2001 François Marques
+
+ #####
+ #   ###
+## *.* ##
+#  $*$  #
+#  *.*  #
+### @  ##
+  #  ###
+  ####
+Title: H to I
+Comment: © 03/2001 François Marques
+
+  ####
+###  #
+# $  ###
+#@#.$  #
+# $ $# #
+## . ..#
+ #  ####
+ ####
+Title: For ban 48
+Comment: © 08/2001 François Marques
+
+ ####
+##  ####
+# .$$  #
+# .@.  #
+# $$. ##
+###  ##
+  ####
+Title: For ban 49
+Comment: © 05/2001 François Marques
+
+#####
+#   #
+#   #
+#*+*#
+#   #
+#*$*####
+#      #
+#  #   #
+########
+Title: The boot
+Comment: © 08/2001 François Marques
+
+  ####
+  #  #
+###  ##
+#  $$ #
+# #*. #
+# . . #
+##$#@##
+ #   #
+ #####
+Title: For ban 50
+Comment: © 05/2001 François Marques
+
+  #####
+### @ ###
+#  .$.  #
+#  ***  #
+###$.$###
+  #   #
+  #   #
+  #  ##
+  #####
+Title: R.I.P.
+Comment: © 03/2001 François Marques
+
+   ##
+  #  #
+ ##. #
+ # . #
+##$.$###
+#@$.$  #
+# $.   #
+###  ###
+  ####
+Title: The sword
+Comment: © 05/2001 François Marques
+
+  ####
+  #  #
+###  #
+# $$ ###
+#. .$. #
+# .*.  #
+##$ $###
+ # @ #
+ #####
+Title: Hexa ban 18
+Comment: © 09/2001 François Marques
+
+ #####
+ # @ #
+##$ $#
+#  $ ###
+# .*.  #
+##.*.  #
+ # $ ###
+ # * #
+ #  ##
+ ####
+Title: Halloween
+Comment:
+© 30/10/2001 François Marques
+Un petit air de Picokosmos 12, créé par Aymeric un jour avant, mais la résolution est très différente !
+Comment-End:
+
+ ####
+ # @#
+ #  #
+##$$###
+#     #
+# #   #
+#.*.*##
+##   #
+ #  ##
+ ####
+Title: The pot of flowers
+Comment: © 11/2001 François Marques
+
+###
+#  ####
+# $@$  #
+# $#...#
+#  *** #
+#     #
+####  #
+    ##
+Title: Air line
+Comment: © 11/2001 François Marques
+
+###
+#  ######
+#    $   #
+#  **.**  #
+#   *@*   #
+##########
+Title: The Shuttle
+Comment: © 11/2001 François Marques
+
+  ####
+  #  #
+###  ###
+#   $$ #
+#+**...#
+#   $$ #
+###  ###
+  #  #
+  ####
+Title: Plus - Minus
+Comment: © 11/2001 François Marques
+
+   ####
+   #  ####
+  #  *   #
+###@*.*  #
+#  * $ * #
+#   ##  ##
+#### #  #
+     ####
+Title: Go up
+Comment: © 07/2002 François Marques
+
+   ###
+  # @ #
+ # .#. #
+ #$$*$$#
+#  * *  #
+#   .   #
+####. ###
+   #  #
+   ####
+Title: The mushroom
+Comment: © 08/2002 François Marques
+
+ ####
+ #  ######
+ #       #
+ # $@#$# #
+##.*..*. #
+#  *  * ##
+# #$##$##
+#      #
+########
+Title: The table
+Comment: © 09/2002 François Marques
+
+ ####
+ #  ######
+ # $   $ #
+ #   # # #
+##***.**@#
+#  .  . ##
+# # ##$##
+#      #
+########
+Title: The table again ?
+Comment: © 09/2002 François Marques
+
+   ###
+  # @ #
+ # $#$ #
+ # .*. #
+#  *.*  #
+#  $ $  #
+####. ###
+   #  #
+   ####
+Title: The toadstool
+Comment: © 09/2002 François Marques

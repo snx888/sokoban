@@ -1,7 +1,17 @@
 import { createModel, CustomModel } from './base/CustomModel.js'
 
+const LEVEL = {
+    FLOOR: ' ',
+    WALL: '#',
+    TARGET: '.',
+    PLAYER: '@',
+    BOX: '$',
+    TARGET_BOX: '*',
+    TARGET_PLAYER: '+'
+}
+
 const BOARD = {
-    EMPTY: ' ',
+    FLOOR: ' ',
     WALL: 'W',
     TARGET: 'T',
     PLAYER: 'P',
@@ -20,7 +30,7 @@ const DIRECTION = {
 const X = 0
 const Y = 1
 
-export default createModel({
+export default function () { return createModel({
     data: {
         map: 0,
         moves: 0,
@@ -126,4 +136,4 @@ export default createModel({
         }
 
     }
-})
+})}

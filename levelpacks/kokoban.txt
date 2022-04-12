@@ -1,0 +1,501 @@
+// These levels are copyrighted by François Marques <sokoban@online.fr> //
+// The original file is downloadable at http://sokoban.online.fr/ //
+
+ #######
+## + $ ###
+#  * *   #
+# *#$#*  #
+#  * *   #
+##   . ###
+ #######
+Title: The bubble
+Comment: © 01/2001 François Marques
+
+ #####
+## @ ##
+#  $  #
+# .$. #
+##$.$##
+# .$. #
+# $.$ #
+# .$. #
+##   ##
+ #####
+Title: Level 8
+Comment: © 03/2001 François Marques
+
+  #####
+  #...#
+  #  .#
+  #  .#
+####  ####
+#    #   #
+# $$@$   #
+## ##   ##
+# $ $ ###
+#     #
+#######
+Title: Penta ban 1
+Comment: © 02/2001 François Marques
+
+     ######
+######    #
+#    # $  #
+#  $ ##$  #
+# $$. ..  #
+#  #.##.####
+####.##.#  #
+ #  ....$$ #
+ # $$## $  #
+ ##@$ #    #
+  #   ######
+  #####
+Title: The windmill
+Comment: © 01/2001 François Marques
+
+ #######
+##  +  ##
+#  * *  #
+# * * * #
+#  *$*  #
+# * * * #
+#  * *  #
+##     ##
+ #######
+Title: The diamond
+Comment: © 01/2000 François Marques
+
+ #######
+##  +  ##
+#  * *  #
+# # # # #
+#  *$*  #
+# # # # #
+#  * *  #
+##     ##
+ #######
+Title: The diamond revisited
+Comment: © 01/2001 François Marques
+
+ #######
+##  +  ##
+#  # *  #
+# * * # #
+#  *$*  #
+# # # * #
+#  * #  #
+##     ##
+ #######
+Title: Déjà vu ?
+Comment: © 01/2001 François Marques
+
+   ####
+   #. ###
+   #    #
+   #.# @####
+####.# $#  #
+#    # $   #
+#      ##$ ##
+#.   ##   $ #
+#######     #
+      ##   ##
+       #####
+Title: Move my body
+Comment: © 02/2001 François Marques
+
+  ####
+  #  #
+###  #####
+# $. #   #
+#@$  $   #
+##$##$  ##
+# . . ###
+# . . #
+#######
+Title: Penta ban 2
+Comment: © 03/2001 François Marques
+
+   ####
+  ##  #
+ ## $ ##
+## *.* ##
+# $. .$ #
+#  *.*  #
+### $   #
+  # @ ###
+  #####
+Title: Squares
+Comment: © 03/2001 François Marques
+
+  #####
+  #   ###
+  #  .  #
+### * * #
+#   $#$##
+#   *@* #
+#  # .  #
+#########
+Title: Hexa ban 5
+Comment: © 03/2001 François Marques
+
+ #### ####
+ #  # #  #
+ #  ###  #
+ #$$...$$#
+ #  .#.  #
+##$$.+.$$##
+#   ###   #
+#   # #   #
+##### #####
+Title: Octo ban 7
+Comment: © 05/2001 François Marques
+
+ ### ###
+#. ### .#
+#.  #  .#
+#@$$#   #
+ #     #
+#  $# $ #
+#   #   #
+ ### ###
+Title: The butterfly
+Comment: © 03/2001 François Marques
+
+#######
+#     #
+# #.*$####
+# # @ *  #
+# *$*.*  #
+###     ##
+  #  ####
+  ####
+Title: Hepta ban 5
+Comment: © 05/2001 François Marques
+
+  #####
+  #   #
+###$@$###
+#  *.*  #
+# #*$*# #
+#  .#.  #
+#       #
+#  ######
+####
+Title: Hepta ban 6
+Comment: © 05/2001 François Marques
+
+   ####
+####  ###
+#    $  #
+# #$#$# ##
+#@.*.*.. #
+#  $     #
+#  #######
+####
+Title: Hexa ban 10
+Comment: © 05/2001 François Marques
+
+    ####
+  ###  ##
+###  @  #
+#  $.*.$##
+#   ***  #
+###$.*.$ #
+  #    ###
+  #  ###
+  ####
+Title: Nano ban 1
+Comment: © 05/2001 François Marques
+
+ ######
+ #    ##
+ #  #  #
+##$.$.$##
+# $.$.$ #
+# .$.$. #
+# .$+$.##
+##  #  #
+ #######
+Title: Deca ban 3
+Comment: © 06/2001 François Marques
+
+    #####
+    #   ##
+  ###$   #
+ ## .*.  #
+## $ $*$##
+# .*+ . #
+#  $*$ ##
+### .  #
+  ######
+Title: Deca ban 2
+Comment: © 06/2001 François Marques
+
+  ####
+ ##  #
+ #   ###
+ # *** #
+## . $ #
+#  *@* #
+#  $ . #
+## *** #
+ ###   #
+   #####
+Title: Des cabanes
+Comment: © 05/2001 François Marques
+
+  ######
+  #    ##
+  # #   #
+###.*.  #
+# $  * ##
+#  *.* #
+# $#$###
+##  @#
+ #####
+Title: Hepta ban 7
+Comment: © 05/2001 François Marques
+
+ ####  ####
+##  ####  #
+#         #
+#  $ # $  #
+#  #*.*#  #
+### . .####
+ #  *.*  #
+ # $ ##$ #
+ #  # # @#
+ #### ####
+Title: The robot
+Comment: © 09/2001 François Marques
+
+#######
+#  #  #
+# *** #
+#  $  #
+# .@.###
+#  $   #
+# ***  #
+#  #  ##
+#######
+Title: Octo ban 9
+Comment: © 09/2001 François Marques
+
+########
+#   .  #
+#   $  #
+## ***##
+#      #
+#  *** #
+###   ##
+ # *** #
+ #  @  #
+ #######
+Title: The ladder
+Comment: © 09/2001 François Marques
+
+   #####
+   # @ #
+#### * ####
+#   * *   #
+#  *#.#*  #
+##  *$* ###
+ #   *   #
+ ##  #   #
+  ########
+Title: The fat man
+Comment: © 09/2001 François Marques
+
+    ####
+ ####  ##
+##      #
+# .$*#  #
+# $.@*  #
+# *#.$ ##
+#  *$. #
+###   ##
+  #####
+Title: Octo ban 10
+Comment: © 09/2001 François Marques
+
+###########
+#    #    #
+# $* + *$ #
+#  *...*  #
+##$$#*#$$##
+#  *...*  #
+# $* . *$ #
+#    #    #
+###########
+Title: The big box
+Comment: © 10/2001 François Marques
+
+  #####
+ ## . ##
+ #  +  #
+##$*$*$##
+#  .#.  #
+# $ . $ #
+##  * ###
+ #  ###
+ ####
+Title: Octoban 11
+Comment: © 10/2001 François Marques
+
+#### #####
+#  ###   #
+#   *+*  #
+#   *** ##
+###  #  #
+  # *$* #
+  #  *  #
+  #  #  #
+  #######
+Title: The castle
+Comment: © 10/2001 François Marques
+
+       #
+      # #
+     # @ #
+    #  * ##
+   ## *$*  #
+  ## **.**  #
+ #           #
+####  #########
+###############
+Title: The pyramid
+Comment: © 10/2001 François Marques
+
+  #######
+  #  #  #
+###  #  ###
+#  $   $  #
+#  **#**  #
+###.. .. ##
+  # $#$ ##
+  ## @ ##
+   #####
+Title: Octo ban 13
+Comment: © 11/2001 François Marques
+
+####
+#  ######
+#       #
+# *.$*$ #
+##$.#. ##
+# ..$*@ #
+# $     #
+#####  ##
+    ####
+Title: Octo ban 14
+Comment: © 11/2001 François Marques
+
+##### #####
+#   ###   #
+# # $ $ # #
+#  $#@# $ #
+###.....###
+#  $$.$$ ##
+# $..#..$ #
+#   ##    #
+###########
+Title: Deca ban 5
+Comment: © 11/2001 François Marques
+
+   #####
+#### @ ####
+#   *#*   #
+#    *    #
+### *#.$###
+  #  *  #
+  #  #  #
+  #######
+Title: The stoper
+Comment: © 11/2001 François Marques
+
+  #####
+  #   #
+ ##$  ##
+ #   $ #
+##*# #+#
+# . $ .#
+# .$ $.#
+#####  #
+    ####
+Title: Disorganized
+Comment: © 11/2001 François Marques
+
+  ###
+  #  ###
+  #$ $  ##
+### ...  #
+# $$.$*  #
+# .$**.###
+#   @  #
+########
+Title: The monster
+Comment: © 11/2001 François Marques
+
+   ###
+ ##   ##
+# $$    #
+# $..**. #
+# #$..$# #
+# .**..$ #
+ #   @$$ #
+  ##   ##
+    ###
+Title: Almost circular
+Comment: © 07/2001 François Marques
+
+   #####
+   #   #
+####   ###
+#  ****  #
+#  * @*  #
+#  *$ * ##
+## .*** #
+ ##     #
+  #######
+Title: The jail
+Comment: © 08/2001 François Marques
+
+  ####
+  #  #
+###  ####
+#  $.$  #
+# .*.*.@#
+## #.$ ##
+ # $ $ #
+ ###  ##
+   #  #
+   ####
+Title: Two bars
+Comment: © 07/2001 François Marques
+
+  #############
+  #  ## @ ##  #
+  #     #     #
+###* *  #  * *###
+#  $*$ ### $*$  #
+#...$.. # ..*.. #
+#  $*$# # #$*$  #
+## * *  #  * * ##
+ #   #######   #
+ #####     #####
+Title: Siamese twins
+Comment: © 08/2001 François Marques
+
+   ####
+   #  #
+   #  #
+####  ##
+#  $*  ##
+#  .$*  ###
+### .$*   #
+  ## .$*  #
+   ## .@###
+    ##  #
+     ####
+Title: The staircase
+Comment: © 09/2001 François Marques

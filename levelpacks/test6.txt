@@ -1,0 +1,13 @@
+MYRIOCOSMOS
+ 
+// 2007-2020 Copyright Aymeric du Peloux //
+
+'MYRIOCOSMOS 01'
+########
+#@ $.*+#
+########
+
+'MYRIOCOSMOS 02'
+########
+#@ $.*+#
+########
